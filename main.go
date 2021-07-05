@@ -18,7 +18,7 @@ func main() {
 
 	r := routers.Init()
 
-	if err := r.Run(":8080"); err != nil {
+	if err := r.Run(":8081"); err != nil {
 		fmt.Printf("StartUp service failed, err:%v\n", err)
 	}
 }

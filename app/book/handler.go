@@ -18,7 +18,6 @@ func init() {
 }
 
 func create(c *gin.Context) {
-
 }
 
 func get(c *gin.Context) {
@@ -28,4 +27,13 @@ func get(c *gin.Context) {
 		return
 	}
 	c.JSON(http.StatusOK, gin.H{"id": id})
+}
+
+func getAll(c *gin.Context) {
+}
+
+func update(c *gin.Context) {
+}
+
+func del(c *gin.Context) {
 }
